@@ -1,8 +1,8 @@
 {
   "driveFolder": "163ZvXOIh_q7R_Pm8b7TN7qdco8z06qF1",
   "driveFolderUrl": "https://drive.google.com/drive/folders/163ZvXOIh_q7R_Pm8b7TN7qdco8z06qF1",
-  "lastUpdated": "2026/06/08 19:37:52",
-  "lastSynced": "2026-06-08T03:57:38.770Z",
+  "lastUpdated": "2026/06/08 19:38:15",
+  "lastSynced": "2026-06-08T10:38:15.032Z",
   "videos": [
     {
       "id": "1876fXby-d4iH1VfSgJu2Ph8uhRHLpzBC",
@@ -11,14 +11,14 @@
       "addedAt": "2026-06-08",
       "note": "neon_short制作_ver7_DAW_納品",
       "status": {
-        "tiktok": false,
+        "tiktok": true,
         "youtube_shorts": false,
-        "instagram_reels": false,
+        "instagram_reels": true,
         "x_twitter": false
       },
       "fileSize": 126827611,
       "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
     },
     {
       "id": "1yKqq620FupYwzldWP-prkQb484zyR5rY",
@@ -28,13 +28,13 @@
       "note": "neon_short制作_ver7_DAW_納品",
       "status": {
         "tiktok": false,
-        "youtube_shorts": false,
+        "youtube_shorts": true,
         "instagram_reels": false,
         "x_twitter": false
       },
       "fileSize": 138044170,
       "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
     },
     {
       "id": "1bu4fHXVoGbkdsCKQu5t5VXV6mOvoGMTB",
@@ -50,7 +50,7 @@
       },
       "fileSize": 106193602,
       "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
     },
     {
       "id": "1mc0jZCcbZ2elj6jQginZkNBi98m_btK-",
@@ -66,7 +66,7 @@
       },
       "fileSize": 155651222,
       "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
     },
     {
       "id": "10upEiKVGpLf0VN4QHhRloN-HGoelZP7J",
@@ -82,7 +82,7 @@
       },
       "fileSize": 154652792,
       "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
     },
     {
       "id": "1K4BizV2wSIUhDXwc5INuoFxSE7ZPckbq",
@@ -98,7 +98,7 @@
       },
       "fileSize": 139853927,
       "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
     },
     {
       "id": "1Z7QQNeOTUNb7xo-9xbrWo7cSpuUzQxEE",
