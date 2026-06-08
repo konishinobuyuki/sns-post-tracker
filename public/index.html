@@ -32,3 +32,554 @@
     min-height: 100vh;
     font-size: 14px;
   }
+
+  /* ─── ヘッダー ─── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header h1 { font-size: 17px; font-weight: 700; flex: 1; }
+  header h1 span { color: var(--accent); }
+  .save-status { font-size: 12px; color: var(--text3); transition: color 0.3s; }
+  .save-status.saved   { color: var(--posted); }
+  .save-status.saving  { color: var(--accent); }
+  .save-status.error   { color: #ef4444; }
+
+  /* ─── 統計バー ─── */
+  .stats-bar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .stat-item  { display: flex; flex-direction: column; gap: 2px; }
+  .stat-label { font-size: 11px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat-value { font-size: 20px; font-weight: 700; }
+  .stat-value .total { color: var(--text); }
+  .stat-value .tk { color: var(--tiktok); }
+  .stat-value .yt { color: var(--youtube); }
+  .stat-value .ig { color: var(--instagram); }
+  .stat-value .xc { color: #aaa; }
+  .stat-divider { width: 1px; background: var(--border); align-self: stretch; }
+
+  /* ─── フォルダ情報バー ─── */
+  .folder-bar {
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text2);
+    flex-wrap: wrap;
+  }
+  .folder-bar .label { display: flex; align-items: center; gap: 6px; white-space: nowrap; padding-top: 2px; }
+  .folder-bar a { color: var(--accent); text-decoration: none; }
+  .folder-bar a:hover { text-decoration: underline; }
+  .folder-chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
+  .folder-chip {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 4px 10px;
+    background: rgba(124,58,237,0.1);
+    border: 1px solid rgba(124,58,237,0.2);
+    border-radius: 10px;
+    font-size: 11px;
+    color: #a78bfa;
+    word-break: break-all;   /* ← 長いフォルダ名を折り返す */
+    white-space: normal;     /* ← nowrap を解除 */
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  .synced-info { font-size: 11px; color: var(--text3); white-space: nowrap; padding-top: 2px; }
+
+  /* ─── ツールバー ─── */
+  .toolbar {
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .filter-group { display: flex; gap: 4px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 5px 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text2);
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.15s;
+  }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+  .filter-btn:hover:not(.active) { border-color: var(--accent); color: var(--text); }
+  .spacer { flex: 1; }
+  .btn {
+    padding: 7px 16px;
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.15s;
+  }
+  .btn-primary   { background: var(--accent); color: white; }
+  .btn-primary:hover { background: var(--accent2); }
+  .btn-secondary { background: var(--surface2); color: var(--text2); border: 1px solid var(--border); }
+  .btn-secondary:hover { color: var(--text); border-color: var(--text3); }
+
+  /* ─── テーブル ─── */
+  .table-wrap { padding: 0 24px 24px; overflow-x: auto; }
+  table { width: 100%; border-collapse: separate; border-spacing: 0; min-width: 680px; }
+  thead th {
+    background: var(--surface2);
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  thead th:first-child { border-radius: var(--radius) 0 0 0; }
+  thead th:last-child  { border-radius: 0 var(--radius) 0 0; }
+  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
+  tbody tr:hover { background: var(--hover); }
+  td { padding: 12px; vertical-align: middle; }
+
+  /* 動画名カラム */
+  .td-title { display: flex; align-items: center; gap: 10px; min-width: 160px; }
+  .video-icon {
+    width: 36px; height: 36px;
+    background: var(--surface2);
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+  }
+  .video-name { font-weight: 500; font-size: 13px; word-break: break-word; }
+  .video-name a { color: var(--text); text-decoration: none; }
+  .video-name a:hover { color: var(--accent); }
+  .video-date { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+  /* フォルダカラム */
+  .td-folder { min-width: 120px; max-width: 220px; }
+  .folder-tag {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 4px 8px;
+    background: rgba(124,58,237,0.1);
+    border: 1px solid rgba(124,58,237,0.2);
+    border-radius: 10px;
+    font-size: 11px;
+    color: #a78bfa;
+    word-break: break-all;   /* ← 長名折り返し */
+    white-space: normal;     /* ← nowrap 解除 */
+    line-height: 1.5;
+    max-width: 100%;
+  }
+
+  /* SNS トグル */
+  .th-sns { text-align: center; min-width: 54px; }
+  .sns-head { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; }
+  .sns-head .ico { font-size: 16px; }
+  .sns-head .lbl { font-size: 9px; }
+  .td-sns { text-align: center; }
+  .sns-toggle {
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    border: 2px solid var(--unposted);
+    background: transparent;
+    cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    transition: all 0.15s;
+    color: transparent;
+  }
+  .sns-toggle:hover { opacity: 0.8; transform: scale(1.1); }
+  .sns-toggle.posted { color: white; }
+  .sns-toggle.posted.tk { background: var(--tiktok);    border-color: var(--tiktok); }
+  .sns-toggle.posted.yt { background: var(--youtube);   border-color: var(--youtube); }
+  .sns-toggle.posted.ig { background: var(--instagram); border-color: var(--instagram); }
+  .sns-toggle.posted.xc { background: #333; border-color: #555; }
+
+  /* 進捗バー */
+  .progress-cell { min-width: 70px; }
+  .progress-bar  { height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--posted); border-radius: 2px; transition: width 0.3s; }
+  .progress-label { font-size: 10px; color: var(--text3); margin-top: 3px; }
+
+  /* ─── 空状態 ─── */
+  .empty-state { text-align: center; padding: 64px 24px; color: var(--text2); }
+  .empty-state .icon { font-size: 48px; margin-bottom: 12px; }
+  .empty-state h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; color: var(--text); }
+  .empty-state p { font-size: 13px; max-width: 400px; margin: 0 auto; }
+
+  /* ─── モーダル ─── */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 200;
+    display: flex; align-items: center; justify-content: center;
+    padding: 16px;
+    backdrop-filter: blur(4px);
+  }
+  .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; width: 100%; max-width: 480px; }
+  .modal h2 { font-size: 16px; font-weight: 700; margin-bottom: 16px; }
+  .modal-footer { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; }
+
+  /* ─── トースト ─── */
+  .toast {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 12px 16px;
+    font-size: 13px; z-index: 300;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .toast.hidden { transform: translateY(20px); opacity: 0; pointer-events: none; }
+  .toast.success { border-color: var(--posted); color: var(--posted); }
+  .toast.error   { border-color: #ef4444; color: #ef4444; }
+</style>
+</head>
+<body>
+
+<!-- ヘッダー -->
+<header>
+  <h1>🎬 SNS Post <span>Tracker</span></h1>
+  <span id="saveStatus" class="save-status">読み込み中...</span>
+</header>
+
+<!-- 統計バー -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-label">動画数</span>
+    <span class="stat-value"><span class="total" id="statTotal">0</span></span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item">
+    <span class="stat-label">TikTok</span>
+    <span class="stat-value"><span class="tk" id="statTk">0</span><span style="color:var(--text3);font-size:14px;font-weight:400"> 投稿済</span></span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-label">YouTube</span>
+    <span class="stat-value"><span class="yt" id="statYt">0</span><span style="color:var(--text3);font-size:14px;font-weight:400"> 投稿済</span></span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-label">Instagram</span>
+    <span class="stat-value"><span class="ig" id="statIg">0</span><span style="color:var(--text3);font-size:14px;font-weight:400"> 投稿済</span></span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-label">X / Twitter</span>
+    <span class="stat-value"><span class="xc" id="statX">0</span><span style="color:var(--text3);font-size:14px;font-weight:400"> 投稿済</span></span>
+  </div>
+</div>
+
+<!-- フォルダ情報バー -->
+<div class="folder-bar">
+  <div class="label">
+    <span>📁</span>
+    <span>Drive:</span>
+    <a id="driveFolderLink" href="#" target="_blank">sns-contents</a>
+    <span style="color:var(--text3)">›</span>
+  </div>
+  <div class="folder-chips" id="folderChips"></div>
+  <span id="syncedInfo" class="synced-info"></span>
+</div>
+
+<!-- ツールバー -->
+<div class="toolbar">
+  <div class="filter-group">
+    <button class="filter-btn active" data-filter="all"      onclick="setFilter('all')">すべて</button>
+    <button class="filter-btn"        data-filter="unposted" onclick="setFilter('unposted')">未投稿あり</button>
+    <button class="filter-btn"        data-filter="complete" onclick="setFilter('complete')">全SNS完了</button>
+  </div>
+  <div class="filter-group">
+    <button class="filter-btn" data-sns="tiktok"          onclick="toggleSnsFilter('tiktok')">TikTok未</button>
+    <button class="filter-btn" data-sns="youtube_shorts"  onclick="toggleSnsFilter('youtube_shorts')">YouTube未</button>
+    <button class="filter-btn" data-sns="instagram_reels" onclick="toggleSnsFilter('instagram_reels')">IG未</button>
+    <button class="filter-btn" data-sns="x_twitter"       onclick="toggleSnsFilter('x_twitter')">X未</button>
+  </div>
+  <div class="spacer"></div>
+  <button class="btn btn-secondary" onclick="openSyncGuide()">🔄 Drive同期</button>
+</div>
+
+<!-- テーブル -->
+<div class="table-wrap">
+  <table id="videoTable">
+    <thead>
+      <tr>
+        <th style="width:36px;">#</th>
+        <th>動画ファイル</th>
+        <th>フォルダ</th>
+        <th class="th-sns">
+          <div class="sns-head"><span class="ico">🎵</span><span class="lbl" style="color:var(--tiktok)">TikTok</span></div>
+        </th>
+        <th class="th-sns">
+          <div class="sns-head"><span class="ico">▶️</span><span class="lbl" style="color:var(--youtube)">YouTube</span></div>
+        </th>
+        <th class="th-sns">
+          <div class="sns-head"><span class="ico">📷</span><span class="lbl" style="color:var(--instagram)">Instagram</span></div>
+        </th>
+        <th class="th-sns">
+          <div class="sns-head"><span class="ico">✖️</span><span class="lbl" style="color:#aaa">X</span></div>
+        </th>
+        <th class="progress-cell">進捗</th>
+      </tr>
+    </thead>
+    <tbody id="videoBody"></tbody>
+  </table>
+
+  <div id="emptyState" class="empty-state hidden">
+    <div class="icon">🎬</div>
+    <h2 id="emptyTitle">動画がまだ登録されていません</h2>
+    <p>「Drive同期」でGoogle Driveから動画を取得してください。</p>
+  </div>
+</div>
+
+<!-- Drive同期ガイドモーダル -->
+<div id="syncModal" class="modal-overlay hidden">
+  <div class="modal">
+    <h2>🔄 Drive同期</h2>
+    <p style="color:var(--text2);font-size:13px;line-height:1.7;margin-bottom:16px;">
+      Cowork の Claude に以下のメッセージを送ると最新のファイル一覧を取得して更新します：
+    </p>
+    <div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:13px;color:var(--accent);user-select:all;cursor:text;">
+      SNS Trackerを Drive同期してください
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeSyncModal()">閉じる</button>
+      <button class="btn btn-primary"   onclick="copySync()">📋 コピー</button>
+    </div>
+  </div>
+</div>
+
+<!-- トースト -->
+<div id="toast" class="toast hidden"></div>
+
+<script>
+const SNS_LIST = [
+  { key: 'tiktok',          label: 'TikTok',    cls: 'tk' },
+  { key: 'youtube_shorts',  label: 'YouTube',   cls: 'yt' },
+  { key: 'instagram_reels', label: 'Instagram', cls: 'ig' },
+  { key: 'x_twitter',       label: 'X',         cls: 'xc' },
+];
+
+let data = { videos: [], driveFolder: '', driveFolderUrl: '', lastUpdated: '', lastSynced: '' };
+let currentFilter = 'all';
+let currentSnsFilter = null;
+let saveTimer = null;
+
+// ── 読み込み ──────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('/api/data');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+    updateFolderBar();
+    renderTable();
+    updateStats();
+    setSaveStatus('loaded', `最終更新: ${data.lastUpdated ? fmtDate(data.lastUpdated) : '—'}`);
+  } catch (e) {
+    setSaveStatus('error', '読み込みエラー');
+    showToast('❌ データ取得失敗: ' + e.message, 'error');
+  }
+}
+
+// ── 保存 ─────────────────────────────────────────────────────────────
+function scheduleSave() {
+  clearTimeout(saveTimer);
+  setSaveStatus('saving', '保存中…');
+  saveTimer = setTimeout(saveData, 600);
+}
+
+async function saveData() {
+  try {
+    const res = await fetch('/api/data', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    const json = await res.json();
+    if (json.ok) {
+      setSaveStatus('saved', `保存済 ${fmtDate(json.lastUpdated)}`);
+    } else {
+      setSaveStatus('error', '保存失敗: ' + json.error);
+    }
+  } catch (e) {
+    setSaveStatus('error', '保存エラー');
+  }
+}
+
+// ── テーブル描画 ──────────────────────────────────────────────────────
+function renderTable() {
+  const tbody = document.getElementById('videoBody');
+  tbody.innerHTML = '';
+  let visible = 0;
+
+  data.videos.forEach((v, i) => {
+    const show = isVisible(v);
+    if (show) visible++;
+    const posted = SNS_LIST.filter(s => v.status[s.key]).length;
+    const pct = Math.round(posted / SNS_LIST.length * 100);
+    const nameLink = v.driveUrl
+      ? `<a href="${v.driveUrl}" target="_blank">${esc(v.title)}</a>`
+      : esc(v.title);
+
+    const tr = document.createElement('tr');
+    if (!show) tr.classList.add('hidden');
+    tr.innerHTML = `
+      <td style="color:var(--text3);font-size:12px;">${i + 1}</td>
+      <td>
+        <div class="td-title">
+          <div class="video-icon">🎬</div>
+          <div>
+            <div class="video-name">${nameLink}</div>
+            <div class="video-date">${v.addedAt || ''}</div>
+          </div>
+        </div>
+      </td>
+      <td class="td-folder">
+        ${v.note
+          ? `<span class="folder-tag">📂 ${esc(v.note)}</span>`
+          : `<span style="color:var(--text3);font-size:11px;">—</span>`}
+      </td>
+      ${SNS_LIST.map(s => `
+        <td class="td-sns">
+          <button class="sns-toggle ${v.status[s.key] ? 'posted ' + s.cls : ''}"
+            onclick="toggleStatus('${v.id}','${s.key}')"
+            title="${s.label}: ${v.status[s.key] ? '投稿済 → 取消' : '未投稿 → 投稿済にする'}"
+          >${v.status[s.key] ? '✓' : ''}</button>
+        </td>`).join('')}
+      <td class="progress-cell">
+        <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+        <div class="progress-label">${posted}/${SNS_LIST.length}</div>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  const empty = document.getElementById('emptyState');
+  const table = document.getElementById('videoTable');
+  if (data.videos.length === 0 || visible === 0) {
+    empty.classList.remove('hidden');
+    table.classList.add('hidden');
+    document.getElementById('emptyTitle').textContent =
+      data.videos.length === 0 ? '動画がまだ登録されていません' : '条件に合う動画がありません';
+  } else {
+    empty.classList.add('hidden');
+    table.classList.remove('hidden');
+  }
+}
+
+// ── トグル ────────────────────────────────────────────────────────────
+function toggleStatus(id, key) {
+  const v = data.videos.find(v => v.id === id);
+  if (!v) return;
+  v.status[key] = !v.status[key];
+  renderTable();
+  updateStats();
+  scheduleSave();
+  const sns = SNS_LIST.find(s => s.key === key);
+  showToast(`${v.status[key] ? '✅' : '↩️'} ${esc(v.title)} → ${sns.label} ${v.status[key] ? '投稿済' : '未投稿に戻しました'}`,
+    v.status[key] ? 'success' : '');
+}
+
+// ── フィルタ ──────────────────────────────────────────────────────────
+function isVisible(v) {
+  if (currentSnsFilter) return !v.status[currentSnsFilter];
+  if (currentFilter === 'unposted') return SNS_LIST.some(s => !v.status[s.key]);
+  if (currentFilter === 'complete') return SNS_LIST.every(s => v.status[s.key]);
+  return true;
+}
+function setFilter(f) {
+  currentFilter = f; currentSnsFilter = null;
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(b => b.classList.toggle('active', b.dataset.filter === f));
+  document.querySelectorAll('.filter-btn[data-sns]').forEach(b => b.classList.remove('active'));
+  renderTable();
+}
+function toggleSnsFilter(sns) {
+  currentSnsFilter = currentSnsFilter === sns ? null : sns;
+  currentFilter = 'all';
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(b => b.classList.toggle('active', b.dataset.filter === 'all'));
+  document.querySelectorAll('.filter-btn[data-sns]').forEach(b => b.classList.toggle('active', b.dataset.sns === currentSnsFilter));
+  renderTable();
+}
+
+// ── 統計 ──────────────────────────────────────────────────────────────
+function updateStats() {
+  document.getElementById('statTotal').textContent = data.videos.length;
+  document.getElementById('statTk').textContent = data.videos.filter(v => v.status.tiktok).length;
+  document.getElementById('statYt').textContent = data.videos.filter(v => v.status.youtube_shorts).length;
+  document.getElementById('statIg').textContent = data.videos.filter(v => v.status.instagram_reels).length;
+  document.getElementById('statX').textContent  = data.videos.filter(v => v.status.x_twitter).length;
+  if (data.lastSynced) {
+    document.getElementById('syncedInfo').textContent = `最終同期: ${fmtDate(data.lastSynced)}`;
+  }
+}
+
+// ── フォルダバー ──────────────────────────────────────────────────────
+function updateFolderBar() {
+  const link = document.getElementById('driveFolderLink');
+  if (data.driveFolderUrl) link.href = data.driveFolderUrl;
+  const chips = document.getElementById('folderChips');
+  chips.innerHTML = '';
+  const folders = [...new Set(data.videos.map(v => v.note).filter(Boolean))];
+  folders.forEach(f => {
+    const chip = document.createElement('span');
+    chip.className = 'folder-chip';
+    chip.textContent = '📂 ' + f;
+    chips.appendChild(chip);
+  });
+}
+
+// ── Drive同期ガイド ───────────────────────────────────────────────────
+function openSyncGuide()  { document.getElementById('syncModal').classList.remove('hidden'); }
+function closeSyncModal() { document.getElementById('syncModal').classList.add('hidden'); }
+function copySync() {
+  navigator.clipboard.writeText('SNS Trackerを Drive同期してください').then(() => showToast('📋 コピーしました', 'success'));
+}
+
+// ── util ──────────────────────────────────────────────────────────────
+function setSaveStatus(type, msg) {
+  const el = document.getElementById('saveStatus');
+  el.textContent = msg;
+  el.className = 'save-status ' + ({ saved: 'saved', saving: 'saving', error: 'error' }[type] || '');
+}
+function showToast(msg, type = '') {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.className = 'toast' + (type ? ' ' + type : '');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.add('hidden'), 3000);
+}
+function fmtDate(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    return `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+  } catch { return iso; }
+}
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+document.getElementById('syncModal').addEventListener('keydown', e => { if (e.key === 'Escape') closeSyncModal(); });
+loadData();
+</script>
+</body>
+</html>
