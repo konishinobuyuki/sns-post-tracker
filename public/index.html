@@ -195,9 +195,52 @@
   .toast.hidden { transform: translateY(20px); opacity: 0; pointer-events: none; }
   .toast.success { border-color: var(--posted); color: var(--posted); }
   .toast.error { border-color: #ef4444; color: #ef4444; }
+
+  /* ─── ロック画面 ─── */
+  .lock-overlay {
+    position: fixed; inset: 0; z-index: 500;
+    background: radial-gradient(circle at 50% 30%, #1b1430, var(--bg) 70%);
+    display: flex; align-items: center; justify-content: center; padding: 16px;
+  }
+  .lock-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+    padding: 36px 32px; width: 100%; max-width: 380px; text-align: center;
+    box-shadow: 0 12px 48px rgba(0,0,0,0.5);
+  }
+  .lock-card .lock-ico { font-size: 40px; margin-bottom: 14px; }
+  .lock-card h2 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+  .lock-card p { font-size: 13px; color: var(--text2); margin-bottom: 20px; }
+  .lock-card input {
+    width: 100%; padding: 12px 14px; font-size: 15px; text-align: center;
+    background: var(--surface2); border: 1px solid var(--border); border-radius: 10px;
+    color: var(--text); outline: none; letter-spacing: 0.04em;
+  }
+  .lock-card input:focus { border-color: var(--accent); }
+  .lock-card button {
+    width: 100%; margin-top: 14px; padding: 12px; font-size: 15px; font-weight: 700;
+    background: var(--accent); color: white; border: none; border-radius: 10px; cursor: pointer;
+    transition: background 0.15s;
+  }
+  .lock-card button:hover { background: var(--accent2); }
+  .lock-card button:disabled { opacity: 0.5; cursor: default; }
+  .lock-err { color: #ef4444; font-size: 12px; margin-top: 12px; min-height: 14px; }
 </style>
 </head>
 <body>
+
+<!-- ロック画面（秘密コード） -->
+<div id="lockOverlay" class="lock-overlay">
+  <div class="lock-card">
+    <div class="lock-ico">🔒</div>
+    <h2>SNS Post Tracker</h2>
+    <p>アクセスコードを入力してください</p>
+    <input id="lockInput" type="password" placeholder="アクセスコード"
+           autocomplete="off" autocapitalize="off" spellcheck="false"
+           onkeydown="if(event.key==='Enter')unlock()">
+    <button id="lockBtn" onclick="unlock()">ロック解除</button>
+    <div id="lockErr" class="lock-err"></div>
+  </div>
+</div>
 
 <!-- ヘッダー（統計を内包） -->
 <header>
@@ -291,11 +334,36 @@ let currentPath = '';            // 選択中フォルダのパス（''=ルー�
 let expanded = new Set();        // 展開中フォルダパス
 let currentFilter = 'all';
 let saveTimer = null;
+let accessCode = '';   // 秘密コード（メモリのみ。ブラウザストレージ不使用）
 
-// ── 読み込み ──────────────────────────────────────────────────────────
+// ── ロック解除 ────────────────────────────────────────────────────────
+async function unlock() {
+  const input = document.getElementById('lockInput');
+  const btn = document.getElementById('lockBtn');
+  const err = document.getElementById('lockErr');
+  const code = input.value.trim();
+  if (!code) { err.textContent = 'コードを入力してください'; return; }
+  btn.disabled = true; err.textContent = '確認中…';
+  try {
+    const res = await fetch('/api/data', { headers: { 'x-access-code': code } });
+    if (res.status === 401) { err.textContent = 'コードが正しくありません'; btn.disabled = false; input.select(); return; }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    accessCode = code;                       // 認証成功 → メモリに保持
+    data = await res.json();
+    document.getElementById('lockOverlay').classList.add('hidden');
+    buildTree();
+    Object.values(tree.children).forEach(c => { if (Object.keys(c.children).length) expanded.add(c.path); });
+    renderAll();
+    setSaveStatus('loaded', `最終更新: ${data.lastUpdated ? fmtDate(data.lastUpdated) : '—'}`);
+  } catch (e) {
+    err.textContent = '接続エラー: ' + e.message; btn.disabled = false;
+  }
+}
+
+// ── 読み込み（再読込用） ──────────────────────────────────────────────
 async function loadData() {
   try {
-    const res = await fetch('/api/data');
+    const res = await fetch('/api/data', { headers: { 'x-access-code': accessCode } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     data = await res.json();
     buildTree();
@@ -542,7 +610,7 @@ function scheduleSave() {
 }
 async function saveData() {
   try {
-    const res = await fetch('/api/data', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+    const res = await fetch('/api/data', { method: 'POST', headers: { 'Content-Type': 'application/json', 'x-access-code': accessCode }, body: JSON.stringify(data) });
     const json = await res.json();
     if (json.ok) setSaveStatus('saved', `保存済 ${fmtDate(json.lastUpdated)}`);
     else setSaveStatus('error', '保存失敗: ' + json.error);
@@ -573,7 +641,8 @@ function fmtDate(iso) {
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSyncModal(); });
-loadData();
+// 起動時はロック画面を表示（loadData は unlock 成功後に実行）
+document.getElementById('lockInput').focus();
 </script>
 </body>
 </html>
