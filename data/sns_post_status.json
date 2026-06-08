@@ -1,15 +1,975 @@
 {
   "driveFolder": "163ZvXOIh_q7R_Pm8b7TN7qdco8z06qF1",
   "driveFolderUrl": "https://drive.google.com/drive/folders/163ZvXOIh_q7R_Pm8b7TN7qdco8z06qF1",
-  "lastUpdated": "2026/06/08 19:38:15",
-  "lastSynced": "2026-06-08T10:38:15.032Z",
+  "lastUpdated": "2026/06/08 20:01:46",
+  "lastSynced": "2026-06-08T11:01:46.688Z",
   "videos": [
     {
-      "id": "1876fXby-d4iH1VfSgJu2Ph8uhRHLpzBC",
-      "title": "neon_short制作_ver7_DAW_6.mp4",
-      "driveUrl": "https://drive.google.com/file/d/1876fXby-d4iH1VfSgJu2Ph8uhRHLpzBC/view",
+      "id": "1hgDSlSKdv5RuiwTvsCkO5YsWJmWZ4oWa",
+      "title": "tomeikairo_TT_yumebanchiA_20260225.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1hgDSlSKdv5RuiwTvsCkO5YsWJmWZ4oWa/view",
       "addedAt": "2026-06-08",
-      "note": "neon_short制作_ver7_DAW_納品",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 61340467,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1hiIbAa4er1wVnTrWPTw8YHV5dZYV2-nP",
+      "title": "tomeikairo_TT_yumebanchiB_20260225.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1hiIbAa4er1wVnTrWPTw8YHV5dZYV2-nP/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 35460462,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1iVzhqocj01Qz1PMhhOiwGs4qt2LJhvXf",
+      "title": "tomeikairo_TT_septembersanB_20260225.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1iVzhqocj01Qz1PMhhOiwGs4qt2LJhvXf/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 35195878,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1n62Z84D7MlW94XIptI0pvNmD6wV4c4M2",
+      "title": "tomeikairo_TT_septembersanA_20260225.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1n62Z84D7MlW94XIptI0pvNmD6wV4c4M2/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 42864495,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1f8wY6XAyWOPg1k7Xo_wyqv17CkZUT21z",
+      "title": "tomeikairo_TT_STANDALONE B_20260225.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1f8wY6XAyWOPg1k7Xo_wyqv17CkZUT21z/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 47814593,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "12DhSoDNXqLsbfYdiohhIdkvg2fl6Zhpp",
+      "title": "tomeikairo_TT_stand_aloneA_20260225.mp4",
+      "driveUrl": "https://drive.google.com/file/d/12DhSoDNXqLsbfYdiohhIdkvg2fl6Zhpp/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 40969192,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1wQ_qCzSl_DhrJM6FqEbGKvQ13VmGfZAN",
+      "title": "28_投稿_ROSE.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1wQ_qCzSl_DhrJM6FqEbGKvQ13VmGfZAN/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 57884460,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1vXjRhl9iuCQBkrVm2cL0jTj6o3ya6Cs_",
+      "title": "29_投稿_waruihito.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1vXjRhl9iuCQBkrVm2cL0jTj6o3ya6Cs_/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 44530273,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1Ur_ap4i6qRVLQUf84XHNmZrwnfxYggvq",
+      "title": "25_投稿_asitanowatasinisatiare.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1Ur_ap4i6qRVLQUf84XHNmZrwnfxYggvq/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 62889510,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1NRCS91HvTD1j-5bz_BVVEvIiQeKprdVG",
+      "title": "27_投稿_Loveとくベチュ、して.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1NRCS91HvTD1j-5bz_BVVEvIiQeKprdVG/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 38116570,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "19V4LijccFOIRgO0wOpIfoStf44ukRNLb",
+      "title": "26_投稿_kawaiidakezyadamedesuka_.mp4",
+      "driveUrl": "https://drive.google.com/file/d/19V4LijccFOIRgO0wOpIfoStf44ukRNLb/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 43139036,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1eE1p0ce-CnjZr3oQ4c47NKgyoV1cu7sx",
+      "title": "24_投稿_roujintoumi.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1eE1p0ce-CnjZr3oQ4c47NKgyoV1cu7sx/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 61350399,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1kQNl6B60QsRVgFrd49nOAsNxa-4MukZS",
+      "title": "済み_23_投稿_kyoushinsyo.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1kQNl6B60QsRVgFrd49nOAsNxa-4MukZS/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 66725512,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1MbE4eUnoMa2FE3ATjJ_u-_gGd-bY1C3i",
+      "title": "済み_22_投稿_hakuzith.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1MbE4eUnoMa2FE3ATjJ_u-_gGd-bY1C3i/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 44789761,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1u7S4o4OB2Id-8cJUP8sZXt3dhG1fihxQ",
+      "title": "済み_21_投稿_zenzenzense.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1u7S4o4OB2Id-8cJUP8sZXt3dhG1fihxQ/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 60901352,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1hNX1V2Ah-QBgRUpAO7Cg3jAcbfSpexB5",
+      "title": "10_投稿_tomeikairo_reels_Mikazuki_20251219.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1hNX1V2Ah-QBgRUpAO7Cg3jAcbfSpexB5/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 47535654,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1RVz5Arhu_qhWokx0WKdSlK3QBXJ2ZBXH",
+      "title": "9_投稿_tomeikairo_reels_Friday_night_20251219.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1RVz5Arhu_qhWokx0WKdSlK3QBXJ2ZBXH/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 41303029,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1TE2LcG9e5jLBDcsi1QgIaLUciLJSGysM",
+      "title": "5_投稿_tomeikairo_reels_Kusushiki_20251211.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1TE2LcG9e5jLBDcsi1QgIaLUciLJSGysM/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 27990827,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1Kn7R0vyRxlq77j_bit58yyFkiY9gIhKH",
+      "title": "3_投稿_tomeikairo_reels_Shayou_20251211.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1Kn7R0vyRxlq77j_bit58yyFkiY9gIhKH/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 27957548,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1WXJR1Qv9UPgmSdLd6vqv9c62XXksMh8o",
+      "title": "2_投稿_ttomeikairo_reels_Yushinron_20251211.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1WXJR1Qv9UPgmSdLd6vqv9c62XXksMh8o/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 41606721,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1frcJNTgJbFoBR5omyaJ2j8-MFhE-Yv_0",
+      "title": "6_投稿_tomeikairo_reels_memeshe_20251211.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1frcJNTgJbFoBR5omyaJ2j8-MFhE-Yv_0/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 40661347,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1hHYB8TsOLRIm7eTTj48UAd-0dIE2Ml2B",
+      "title": "4_投稿_tomeikairo_reels_abnormalize_20251211.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1hHYB8TsOLRIm7eTTj48UAd-0dIE2Ml2B/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 26897631,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1R4W710Ndc-Q35L5_EvbuQKIW0RnEebb6",
+      "title": "7_tomeikairo_reels_DARMA_GRAND_PRIX_20251215.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1R4W710Ndc-Q35L5_EvbuQKIW0RnEebb6/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 40687520,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1jH6NEhDQ3XoO6djTWKXUukmMnNZet8DM",
+      "title": "8_tomeikairo_reels_katharsis_20251215.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1jH6NEhDQ3XoO6djTWKXUukmMnNZet8DM/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 52095266,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1tXw-WTUX5jRB1VeCbmXde9qt9B08I6CO",
+      "title": "1_投稿_tomeikairo_reels_Tremoro_20251211.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1tXw-WTUX5jRB1VeCbmXde9qt9B08I6CO/view",
+      "addedAt": "2026-06-08",
+      "note": "covers",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 32719471,
+      "folder": "covers",
+      "folderId": "16kOYTcB95goX-SdW7lpXLa9-aWSBUPCg"
+    },
+    {
+      "id": "1b3fT-modQpme0QqVwixsiTG03zmR-_9F",
+      "title": "Reflector_MV_5.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1b3fT-modQpme0QqVwixsiTG03zmR-_9F/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/mv_short",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 49386590,
+      "folder": "1_reflector/mv_short",
+      "folderId": "1bWJa6BmkHxAP1xip_VYbepbKDAfL3t1p"
+    },
+    {
+      "id": "1K0X8Hyr0j_xTWywsIU3ZgFP1aRo5B46N",
+      "title": "Reflector_MV_4.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1K0X8Hyr0j_xTWywsIU3ZgFP1aRo5B46N/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/mv_short",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 45479830,
+      "folder": "1_reflector/mv_short",
+      "folderId": "1bWJa6BmkHxAP1xip_VYbepbKDAfL3t1p"
+    },
+    {
+      "id": "1bl22vH6GFVRPhI1cOTt9yZgRA7oDRhJO",
+      "title": "reflector_MV_3.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1bl22vH6GFVRPhI1cOTt9yZgRA7oDRhJO/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/mv_short",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 53984329,
+      "folder": "1_reflector/mv_short",
+      "folderId": "1bWJa6BmkHxAP1xip_VYbepbKDAfL3t1p"
+    },
+    {
+      "id": "1HoY6phEvwWu2u53WRGUnR6TKR2MLnubB",
+      "title": "reflector_MV_1.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1HoY6phEvwWu2u53WRGUnR6TKR2MLnubB/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/mv_short",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 59377862,
+      "folder": "1_reflector/mv_short",
+      "folderId": "1bWJa6BmkHxAP1xip_VYbepbKDAfL3t1p"
+    },
+    {
+      "id": "1rjVqB7evrG_71h8L7uwa3T2YFGTV_wUV",
+      "title": "Reflector_MV_2.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1rjVqB7evrG_71h8L7uwa3T2YFGTV_wUV/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/mv_short",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 42876843,
+      "folder": "1_reflector/mv_short",
+      "folderId": "1bWJa6BmkHxAP1xip_VYbepbKDAfL3t1p"
+    },
+    {
+      "id": "1xEDaKZzjSxmvsUjinvFmUUlTOq1j6i3j",
+      "title": "Reflector_ver4_v5.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1xEDaKZzjSxmvsUjinvFmUUlTOq1j6i3j/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acappella",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 13043391,
+      "folder": "1_reflector/acappella",
+      "folderId": "19Da2iSn5jBiONYN2B15Tw2ABjpFfdkkL"
+    },
+    {
+      "id": "1msvUaENVfxZu0j375V4Ig2uRU7ySfpEo",
+      "title": "Reflector_ver4_fix_v4.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1msvUaENVfxZu0j375V4Ig2uRU7ySfpEo/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acappella",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 16289619,
+      "folder": "1_reflector/acappella",
+      "folderId": "19Da2iSn5jBiONYN2B15Tw2ABjpFfdkkL"
+    },
+    {
+      "id": "1i05eNHMWH63acq8DbNFZ3nb3tyvAN1mH",
+      "title": "Reflector_ver4_v6.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1i05eNHMWH63acq8DbNFZ3nb3tyvAN1mH/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acappella",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 7396759,
+      "folder": "1_reflector/acappella",
+      "folderId": "19Da2iSn5jBiONYN2B15Tw2ABjpFfdkkL"
+    },
+    {
+      "id": "1g_9uCrvN7HvJHKVBZbLS47vQGddG7qKT",
+      "title": "Reflector_short_ver4_fix_v2.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1g_9uCrvN7HvJHKVBZbLS47vQGddG7qKT/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acappella",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 14079266,
+      "folder": "1_reflector/acappella",
+      "folderId": "19Da2iSn5jBiONYN2B15Tw2ABjpFfdkkL"
+    },
+    {
+      "id": "1tri-ANGQiwhhBCmoqJSq9ZXfx_fB4ZJK",
+      "title": "Reflector_ver4_fix_v3.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1tri-ANGQiwhhBCmoqJSq9ZXfx_fB4ZJK/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acappella",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 12232724,
+      "folder": "1_reflector/acappella",
+      "folderId": "19Da2iSn5jBiONYN2B15Tw2ABjpFfdkkL"
+    },
+    {
+      "id": "1EgtRYezCHzx3yawGWWyHVKSUFujaffS3",
+      "title": "Reflector_short_ver4_fix_v1.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1EgtRYezCHzx3yawGWWyHVKSUFujaffS3/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acappella",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 14896250,
+      "folder": "1_reflector/acappella",
+      "folderId": "19Da2iSn5jBiONYN2B15Tw2ABjpFfdkkL"
+    },
+    {
+      "id": "1TRPAVzoOr0VO1S82zB0xSUdxFbUb1ad2",
+      "title": "reflector_ver2_solo1 _fix.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1TRPAVzoOr0VO1S82zB0xSUdxFbUb1ad2/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/guitar",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 91470582,
+      "folder": "1_reflector/guitar",
+      "folderId": "1LVbi2BMRDokk7eKSnsHKMN_88pJ2-j3T"
+    },
+    {
+      "id": "1GPomuY2mCNq2hrMHTj7l0kyC2jFxKfQ2",
+      "title": "reflector_ver2_solo2_fix.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1GPomuY2mCNq2hrMHTj7l0kyC2jFxKfQ2/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/guitar",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 142052783,
+      "folder": "1_reflector/guitar",
+      "folderId": "1LVbi2BMRDokk7eKSnsHKMN_88pJ2-j3T"
+    },
+    {
+      "id": "1F3QgqA4yUFdEVwebgupnnkxM8MR3o396",
+      "title": "reflector_ver2_tap2_fix.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1F3QgqA4yUFdEVwebgupnnkxM8MR3o396/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/guitar",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 123275946,
+      "folder": "1_reflector/guitar",
+      "folderId": "1LVbi2BMRDokk7eKSnsHKMN_88pJ2-j3T"
+    },
+    {
+      "id": "1i_WdQyOYvckMwUNoEzBOnaNJwdR6Wq5O",
+      "title": "reflector_ver2_tap_fix.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1i_WdQyOYvckMwUNoEzBOnaNJwdR6Wq5O/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/guitar",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 219354023,
+      "folder": "1_reflector/guitar",
+      "folderId": "1LVbi2BMRDokk7eKSnsHKMN_88pJ2-j3T"
+    },
+    {
+      "id": "1XMjYuW__BwCk70xRFGIwjBfcZl5XW9rW",
+      "title": " reflector_radio _ver6_2(裏側の話.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1XMjYuW__BwCk70xRFGIwjBfcZl5XW9rW/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/makingof",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 59110725,
+      "folder": "1_reflector/makingof",
+      "folderId": "1728nbIfBUe-vT9FVefVsXSGe3T-diejO"
+    },
+    {
+      "id": "1f6VvergeKxasBUW_j4Oqu2ml121xdBes",
+      "title": " reflector_radio _ver6_1.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1f6VvergeKxasBUW_j4Oqu2ml121xdBes/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/makingof",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 54886502,
+      "folder": "1_reflector/makingof",
+      "folderId": "1728nbIfBUe-vT9FVefVsXSGe3T-diejO"
+    },
+    {
+      "id": "1fybkCs5nu-fzSMDouwOimd9-0bIwE1Zx",
+      "title": " reflector_制作過程_final _v1.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1fybkCs5nu-fzSMDouwOimd9-0bIwE1Zx/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/makingof",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 72448685,
+      "folder": "1_reflector/makingof",
+      "folderId": "1728nbIfBUe-vT9FVefVsXSGe3T-diejO"
+    },
+    {
+      "id": "1KgZ-praETMQr782K3DmbUCbUJiMn-Qgo",
+      "title": "Reflector_ver3_6.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1KgZ-praETMQr782K3DmbUCbUJiMn-Qgo/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 5813082,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "1aoSo2qHZlXtHEWf3I6DyJTjIS0GswySG",
+      "title": "Reflector_ver3_3.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1aoSo2qHZlXtHEWf3I6DyJTjIS0GswySG/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 15194117,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "19B1hqdXH9f3HmfvmU1b_BbJCu2yTeW0s",
+      "title": "Reflector_ver3_4sabi.mp4",
+      "driveUrl": "https://drive.google.com/file/d/19B1hqdXH9f3HmfvmU1b_BbJCu2yTeW0s/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 17272779,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "1qYv8fSNiECVvAlik3-rlC5kOIec6wIlY",
+      "title": "Reflector_ver3_5.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1qYv8fSNiECVvAlik3-rlC5kOIec6wIlY/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 13740413,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "1l89zZxqomYL21ZUQtIiB48mKGYeIUpNh",
+      "title": "Reflector_ver3_2.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1l89zZxqomYL21ZUQtIiB48mKGYeIUpNh/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 14388152,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "1Fs3B95XlmrSAZJKtm63v6S8HlBvYpge6",
+      "title": "Reflector_ver3_1.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1Fs3B95XlmrSAZJKtm63v6S8HlBvYpge6/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 18207147,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "16mSwSmfEFsRdrdNYf-Rv2N29IHZqfsRJ",
+      "title": "Reflector_ver1_v1_3.mp4",
+      "driveUrl": "https://drive.google.com/file/d/16mSwSmfEFsRdrdNYf-Rv2N29IHZqfsRJ/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 15771933,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "1vKnW8U_XSwj9a2k5BfbIhvh7XmV23McV",
+      "title": "Reflector_ver1_v1_2.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1vKnW8U_XSwj9a2k5BfbIhvh7XmV23McV/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 14565348,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "11_Vea5HiySN1mKaz4hRReHuq6OG6LKLo",
+      "title": "Reflector_ver1_v1_.mp4",
+      "driveUrl": "https://drive.google.com/file/d/11_Vea5HiySN1mKaz4hRReHuq6OG6LKLo/view",
+      "addedAt": "2026-06-08",
+      "note": "1_reflector/acgtr",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 18450166,
+      "folder": "1_reflector/acgtr",
+      "folderId": "1mFe3PCnDPp_HoSwef0enEAqTndM0vmWc"
+    },
+    {
+      "id": "1ZOatgkzisFyU9gRTWONlpCDGyR0wr7bV",
+      "title": "済・03_itai_hibi.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1ZOatgkzisFyU9gRTWONlpCDGyR0wr7bV/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 2274709,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "1Nuu2RRu_59ZdZd5h6BVtcsxqAAXtSxiS",
+      "title": "済・01_jibun_dakke.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1Nuu2RRu_59ZdZd5h6BVtcsxqAAXtSxiS/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 56753733,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "18ttBCxREs26_VGgp9bawo3oGQRZdaCOc",
+      "title": "04_neon_lights_intro.mp4",
+      "driveUrl": "https://drive.google.com/file/d/18ttBCxREs26_VGgp9bawo3oGQRZdaCOc/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 21625147,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "1_2uSEntArqqr9tR1pZtG3OZm9sCgNbGV",
+      "title": "03_dareka_no_gizen.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1_2uSEntArqqr9tR1pZtG3OZm9sCgNbGV/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 46344400,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "1RSRwysB3ebmdv_2R4NKqvOmguT9Hpys9",
+      "title": "済・01_tadashisa_glitch.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1RSRwysB3ebmdv_2R4NKqvOmguT9Hpys9/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 14668253,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "1MFCm-YGp-rHM79ANYYPza35_PFNuw73Q",
+      "title": "済・03_dareka_chorus.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1MFCm-YGp-rHM79ANYYPza35_PFNuw73Q/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 85782510,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "1v5qbABllxEfAaegkCBxreWAhoMUP9VjB",
+      "title": "09_nanimono_jibun.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1v5qbABllxEfAaegkCBxreWAhoMUP9VjB/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 48017162,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "1Kjt5YBthNuFDL-ZgRVaiAbPfdEtrhrQb",
+      "title": "★10_me_ga_samete.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1Kjt5YBthNuFDL-ZgRVaiAbPfdEtrhrQb/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/mv_shorts",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 27703862,
+      "folder": "2_neon_void/mv_shorts",
+      "folderId": "17oTmBzXsA-CERmJbZPWOjrlujHll0Eo8"
+    },
+    {
+      "id": "11DXuQVEO0j2g_2wuRpKcuEVAyg0sluni",
+      "title": "neon_short制作_ver7_DAW_6.mp4",
+      "driveUrl": "https://drive.google.com/file/d/11DXuQVEO0j2g_2wuRpKcuEVAyg0sluni/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/daw",
       "status": {
         "tiktok": true,
         "youtube_shorts": false,
@@ -17,31 +977,15 @@
         "x_twitter": false
       },
       "fileSize": 126827611,
-      "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
+      "folder": "2_neon_void/daw",
+      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
     },
     {
-      "id": "1yKqq620FupYwzldWP-prkQb484zyR5rY",
-      "title": "neon_short制作_ver7_DAW_v1.mp4",
-      "driveUrl": "https://drive.google.com/file/d/1yKqq620FupYwzldWP-prkQb484zyR5rY/view",
-      "addedAt": "2026-06-08",
-      "note": "neon_short制作_ver7_DAW_納品",
-      "status": {
-        "tiktok": false,
-        "youtube_shorts": true,
-        "instagram_reels": false,
-        "x_twitter": false
-      },
-      "fileSize": 138044170,
-      "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
-    },
-    {
-      "id": "1bu4fHXVoGbkdsCKQu5t5VXV6mOvoGMTB",
+      "id": "1wgYkNvEjpy62So_kHvtrDxhjRZf2u8Aj",
       "title": "neon_short制作_ver7_DAW_v2.mp4",
-      "driveUrl": "https://drive.google.com/file/d/1bu4fHXVoGbkdsCKQu5t5VXV6mOvoGMTB/view",
+      "driveUrl": "https://drive.google.com/file/d/1wgYkNvEjpy62So_kHvtrDxhjRZf2u8Aj/view",
       "addedAt": "2026-06-08",
-      "note": "neon_short制作_ver7_DAW_納品",
+      "note": "2_neon_void/daw",
       "status": {
         "tiktok": false,
         "youtube_shorts": false,
@@ -49,15 +993,15 @@
         "x_twitter": false
       },
       "fileSize": 106193602,
-      "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
+      "folder": "2_neon_void/daw",
+      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
     },
     {
-      "id": "1mc0jZCcbZ2elj6jQginZkNBi98m_btK-",
+      "id": "1fhBfgMkd7IJuyK_VOtULa2WLjCAVJl6n",
       "title": "neon_short制作_ver7_DAW_v3.mp4",
-      "driveUrl": "https://drive.google.com/file/d/1mc0jZCcbZ2elj6jQginZkNBi98m_btK-/view",
+      "driveUrl": "https://drive.google.com/file/d/1fhBfgMkd7IJuyK_VOtULa2WLjCAVJl6n/view",
       "addedAt": "2026-06-08",
-      "note": "neon_short制作_ver7_DAW_納品",
+      "note": "2_neon_void/daw",
       "status": {
         "tiktok": false,
         "youtube_shorts": false,
@@ -65,15 +1009,15 @@
         "x_twitter": false
       },
       "fileSize": 155651222,
-      "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
+      "folder": "2_neon_void/daw",
+      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
     },
     {
-      "id": "10upEiKVGpLf0VN4QHhRloN-HGoelZP7J",
+      "id": "19xfsMmkU8qYVO8EI5-RYsJGFsrTEie_9",
       "title": "neon_short制作_ver7_DAW_v4.mp4",
-      "driveUrl": "https://drive.google.com/file/d/10upEiKVGpLf0VN4QHhRloN-HGoelZP7J/view",
+      "driveUrl": "https://drive.google.com/file/d/19xfsMmkU8qYVO8EI5-RYsJGFsrTEie_9/view",
       "addedAt": "2026-06-08",
-      "note": "neon_short制作_ver7_DAW_納品",
+      "note": "2_neon_void/daw",
       "status": {
         "tiktok": false,
         "youtube_shorts": false,
@@ -81,15 +1025,31 @@
         "x_twitter": false
       },
       "fileSize": 154652792,
-      "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
+      "folder": "2_neon_void/daw",
+      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
     },
     {
-      "id": "1K4BizV2wSIUhDXwc5INuoFxSE7ZPckbq",
-      "title": "neon_short制作_ver7_DAW_v5.mp4",
-      "driveUrl": "https://drive.google.com/file/d/1K4BizV2wSIUhDXwc5INuoFxSE7ZPckbq/view",
+      "id": "10bIY4Tg9JRNpjP-9595nDQyrXiVAxhKC",
+      "title": "neon_short制作_ver7_DAW_v1.mp4",
+      "driveUrl": "https://drive.google.com/file/d/10bIY4Tg9JRNpjP-9595nDQyrXiVAxhKC/view",
       "addedAt": "2026-06-08",
-      "note": "neon_short制作_ver7_DAW_納品",
+      "note": "2_neon_void/daw",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": true,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 138044170,
+      "folder": "2_neon_void/daw",
+      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
+    },
+    {
+      "id": "1gKgVjq1a2f73U_TMugEbdlqsIEBb2-Z6",
+      "title": "neon_short制作_ver7_DAW_v5.mp4",
+      "driveUrl": "https://drive.google.com/file/d/1gKgVjq1a2f73U_TMugEbdlqsIEBb2-Z6/view",
+      "addedAt": "2026-06-08",
+      "note": "2_neon_void/daw",
       "status": {
         "tiktok": false,
         "youtube_shorts": false,
@@ -97,32 +1057,56 @@
         "x_twitter": false
       },
       "fileSize": 139853927,
-      "folder": "neon_short制作_ver7_DAW_納品",
-      "folderId": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
+      "folder": "2_neon_void/daw",
+      "folderId": "1fI9JRAJaGNN021vDQJBI6c-cXeeYW1ZM"
     },
     {
-      "id": "1Z7QQNeOTUNb7xo-9xbrWo7cSpuUzQxEE",
-      "title": "testneon_short制作_ver7_DAW_6.mp4",
-      "driveUrl": "https://drive.google.com/file/d/1Z7QQNeOTUNb7xo-9xbrWo7cSpuUzQxEE/view",
+      "id": "13SPWPu6yV8mSyJcmUHYT61aQe9e3YmpE",
+      "title": "fix_neonvoid.mp4",
+      "driveUrl": "https://drive.google.com/file/d/13SPWPu6yV8mSyJcmUHYT61aQe9e3YmpE/view",
       "addedAt": "2026-06-08",
-      "note": "sns-contents (ルート)",
-      "folder": "sns-contents",
-      "folderId": "163ZvXOIh_q7R_Pm8b7TN7qdco8z06qF1",
+      "note": "Sources/neon_void",
       "status": {
         "tiktok": false,
         "youtube_shorts": false,
         "instagram_reels": false,
         "x_twitter": false
       },
-      "fileSize": 126827611
-    }
-  ],
-  "driveFolderId": "163ZvXOIh_q7R_Pm8b7TN7qdco8z06qF1",
-  "subFolders": [
+      "fileSize": 929248342,
+      "folder": "Sources/neon_void",
+      "folderId": "1cSN8vJLehmG0ErKTBBD1d_PpBCWgAH12"
+    },
     {
-      "id": "1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj",
-      "name": "neon_short制作_ver7_DAW_納品",
-      "url": "https://drive.google.com/drive/folders/1OvwgeckO7qeOYx4FnYmeupCJV_NPWrjj"
+      "id": "1G8GhMCdjt-qAltHx3jakqkxOXzugHtFf",
+      "title": "fix_neonvoid_lyric.mov",
+      "driveUrl": "https://drive.google.com/file/d/1G8GhMCdjt-qAltHx3jakqkxOXzugHtFf/view",
+      "addedAt": "2026-06-08",
+      "note": "Sources/neon_void",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 4306347236,
+      "folder": "Sources/neon_void",
+      "folderId": "1cSN8vJLehmG0ErKTBBD1d_PpBCWgAH12"
+    },
+    {
+      "id": "15hnfrm_p7pDGqsjfgycNyp-BwyN7lHGL",
+      "title": "Reflector_fix_lyric_0224.mov",
+      "driveUrl": "https://drive.google.com/file/d/15hnfrm_p7pDGqsjfgycNyp-BwyN7lHGL/view",
+      "addedAt": "2026-06-08",
+      "note": "Sources/reflector",
+      "status": {
+        "tiktok": false,
+        "youtube_shorts": false,
+        "instagram_reels": false,
+        "x_twitter": false
+      },
+      "fileSize": 452925332,
+      "folder": "Sources/reflector",
+      "folderId": "1e0ceYWSnDUCfXhWvE4tCMDAewS6ZV6WQ"
     }
   ]
 }
