@@ -9,6 +9,8 @@
  *
  * GET  → 現在の sns_post_status を返す
  * POST → 受け取ったデータを保存
+ *
+ * KV(Upstash) 接続済み: sns-tracker-kv（KV_REST_API_URL / KV_REST_API_TOKEN）
  */
 
 import { createHash } from 'crypto';
